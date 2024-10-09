@@ -10,7 +10,7 @@ curl -L -o livecd-iso-to-disk.patch.txt https://github.com/livecd-tools/livecd-t
 
 echo "Applying patch..."
 
-patch -i livecd-iso-to-disk.patch.txt -d /usr/bin
+patch -i /home/liveuser/livecd-iso-to-disk.patch.txt -d /usr/bin
 
 echo "Completed."
 
