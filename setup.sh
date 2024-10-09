@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Downloading psiphon..."
+
+curl -L -o psiphon https://raw.githubusercontent.com/Psiphon-Labs/psiphon-tunnel-core-binaries/refs/heads/master/linux/psiphon-tunnel-core-x86_64
+
 echo "Creating client config..."
 
 echo '{"LocalHttpProxyPort":8081,
