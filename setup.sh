@@ -16,4 +16,9 @@ echo '{"LocalHttpProxyPort":8081,
 "UseIndistinguishableTLS":true
 }' > client.config
 
+echo "Making executable..."
+
+chmod +x psiphon
+
 echo "Completed."
+echo "Run psiphon client by entering the following into the terminal: ./psiphon -config client.config"
