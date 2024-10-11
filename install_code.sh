@@ -5,6 +5,6 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 
 echo "Installing code..."
 
-dnf isntall code
+dnf install code
 
 echo "Complete."
