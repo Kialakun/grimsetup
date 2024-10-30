@@ -9,7 +9,7 @@ npx sv add tailwindcss
 npm install
 
 echo "
-Setup path aliases
+# Setup path aliases
 
 If you are not using the default alias $lib, you'll need to update your svelte.config.js file to include those aliases.
 svelte.config.js
